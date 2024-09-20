@@ -1,0 +1,316 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap');
+
+body {
+    font-family: "Roboto Mono";
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+/*---------------> HOME-MENU <---------------*/
+
+nav {
+    position: fixed;
+    width: 100%;
+    padding: 10px 0;
+    background-color: transparent;
+    margin-bottom: 80px;
+    z-index: 1000; /* Garante que o menu esteja acima do conteúdo da página */
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px; /* Espaçamento interno dos links */
+    border-radius: 40px; /* Bordas arredondadas */
+    transition: background 0.3s ease, color 0.3s ease; /* Transição suave */
+    transform: scale(1.03);
+}
+
+nav ul li a:hover {
+    text-decoration: none;
+    background: #333; /* Cor de fundo ao passar o cursor */
+    color: #fff; /* Cor do texto ao passar o cursor */
+}
+
+/*---------------> HOME-MENU <---------------*/
+
+/*---------------> HOME <---------------*/
+header {
+    height: 100%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between; 
+    padding: 20px;
+    width: 130%;
+    box-sizing: border-box;
+}
+
+
+header .foto {
+    margin-top: 100px;
+    position: relative;
+    left: 55%;
+    width: 150px;
+    border: 2px solid white;
+    border-radius: 50px;
+    
+}
+
+header .apresentacao {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column; /*Empilha os itens verticalmente*/
+    align-items: flex-start; /* Alinha itens ao início do contêiner */
+    position: relative; /* Ajusta a posição conforme quero */
+    right: 55%;
+    text-align: left;
+}
+
+header .apresentacao h1 {
+    color: white;
+    margin-bottom: 8px;
+}
+
+header .apresentacao p {
+    color: white;
+    margin-top: 0;
+}
+
+header .contato {
+    display: flex;
+    gap: 10px; /* Espaçamento entre os ícones */
+    margin-top: 1px; /* Espaçamento entre o texto e os ícones */
+}
+
+header .contato img {
+    position: relative;
+    left: 280%;
+    width: 50px;
+    background-color: #FFF;
+    border-radius: 50px;
+
+}
+
+header .contato img:hover {
+    transition: transform 0.9s ease-out;
+    transform: scale(1.03);
+}
+
+/*---------------> HABILIDADES E EXPERIENCIA <---------------*/
+
+body {
+    background: linear-gradient(to bottom, 	#000000, #003366, #87CEEB);
+    overflow-x: hidden; /* Remove o scroll horizontal, se houver */
+}
+
+body .bloco1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 180px;
+    margin: 0 auto; /* Centraliza o conteúdo */
+}
+
+body .infos {
+    width: 200px;
+    padding: 100px;
+    text-align: left;
+    color: #EEE5DE;
+    
+}
+
+.infos h2 {
+    position: relative;
+    font-size: 2em;
+    bottom: 176px;
+    right: 30px;
+    margin-bottom: 0px; /* Adiciona um espaçamento entre o h1 e a imagem */
+}
+
+.infos p {
+    font-size: 20px;
+    position: relative;
+    bottom: 150px;
+    right: 70px;
+}
+
+.infos p2 {
+    justify-content: center;
+    font-size: 15px;
+    position: relative;
+    bottom: 160px;
+    right: 35px;
+}
+
+
+.estagio1 {
+    width: 150px;
+    height: auto;
+    position: relative;
+    left: 160px;
+    margin-top: 20px;
+    bottom: -40px;
+}
+
+.estagio1:hover {
+    transition: transform 0.6s ease-out;
+    transform: scale(1.03);
+}
+
+
+
+.icons1 {
+    display: flex;
+    justify-content: right;
+    gap: 80px;
+    padding-bottom: 50px;
+}
+
+.icons1 .java {
+    width: 80px;
+    height: auto;
+    position: relative;
+    left: 143px;
+}
+
+.java:hover {
+    transition: transform 0.9s ease-out;
+    transform: scale(1.03);
+}
+
+.icons1 .python {
+    width: 230px;
+    height: auto;
+    position: relative;
+    left: 90px;
+}
+
+.python:hover {
+    transition: transform 0.9s ease-out;
+    transform: scale(1.03);
+}
+
+.icons2 {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    gap: 30px;
+}
+
+.icons2 .html {
+    width: 109px;
+    position: relative;
+    left: 10px;
+}
+
+.html:hover {
+    transition: transform 0.9s ease-out;
+    transform: scale(1.03);
+}
+
+.icons2 .css {
+    width: 133px;
+    height: auto;
+    position: relative;
+    left: 45px;
+}
+
+.css:hover {
+    transition: transform 0.9s ease-out;
+    transform: scale(1.03);
+}
+
+
+.linha {
+    display: flex;
+    position: relative;
+    top: 140px;
+    width: 1px;                
+    height: 300px;             
+    background-color: black;   
+    margin: 0 10px;           
+}
+
+/*---------------> PORTIFOLIO E SOBRE MIM <---------------*/
+
+body .bloco2 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 180px;
+}
+
+body .infos2 {
+    width: 200px;
+    padding: 100px;
+    text-align: left;
+    
+}
+
+.infos2 p {
+    font-size: 15px;
+    text-align: left;
+    position: absolute; 
+    margin: 20px 0 0 -70px;
+    margin-top: 50px; 
+}
+
+.infos2 a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    margin: 20px 0 0;
+}
+
+.infos2 h1 {
+    margin: 20px 0 0 -20px; 
+}
+
+
+.linha {
+    display: flex;
+    position: relative;
+    top: 140px;
+    width: 0.5px;                
+    height: 300px;             
+    background-color: black;   
+    margin: 0 10px;           
+}
+
+/*---------------> FEITO POR <---------------*/
+.feitopor p {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 14px;
+    color: #ffffff;
+    background: #1E3A5F; 
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+    transition: transform 0.6s ease-out, box-shadow 0.6s ease-out, background-color 0.6s ease-out;
+}
+
+.feitopor p:hover {
+    transform: scale(1.03);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.3);
+    cursor: pointer;
+}
